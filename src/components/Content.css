@@ -1,0 +1,73 @@
+.principalContainer{
+   display: flex; flex-direction: column; gap: 50px;
+   background-color: khaki; width: 100vw; height: 100vh;
+}
+
+h1{
+    text-shadow: 2px 2px 5px darkkhaki;
+}
+h1:hover{
+    text-shadow: 2px 2px 5px green;
+}
+
+.cabecalho{
+    display: flex; flex-direction: column; gap: 10px;
+    justify-content: center; align-items: center;
+    text-transform: uppercase;
+}
+button{
+    outline: none; border: none; background: none;
+    
+}
+.refresh{
+    height: 50px; width: 50px;
+    background-color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+button:hover > .refresh{
+    box-shadow: 2px 2px 5px 2px salmon;
+}
+button:active > .refresh{
+    box-shadow: 2px 2px 5px 2px darkgreen;
+}
+
+.container{
+    background-color: white;
+    display: flex; justify-content: center;
+    width: 100vw; background-color: khaki;
+}
+.dados{
+    width: 1200px; display: flex;
+    flex-wrap: wrap; gap: 5px; 
+}
+
+.card{
+    background-color: lavender; 
+    display: flex; 
+    flex-direction: column; align-items: center;
+    width: 200px; 
+    padding: 10px;
+    text-align: left;
+    border: 1px solid khaki; border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px rgb(243, 207, 212);
+}
+img{
+    width: 150px; height: 16vh; 
+    display: flex; align-items: center;
+    border-radius: 100%;
+    box-shadow: 2px 2px 10px 2px grey;
+}
+.card:hover > img{
+    box-shadow: 2px 2px 10px 2px green;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px 2px darkkhaki;
+}
+
+span{
+    font-weight: bold; 
+}
+
